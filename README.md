@@ -18,18 +18,18 @@ git diff
 git branch
 - list the branches in a repository.
 
-git branch <new name>
+git branch .<new name>.
 - create a new branch.
 
-git checkout <branch to switch to>
+git checkout .<branch to switch to>.
 - switch to a branch.
 
-git merge <from which branch>
+git merge .<from which branch>.
 - merge from a branch to the current branch.
 
 =====================================================
 
-git remote add origin <GitHub repository URL>
+git remote add origin .<GitHub repository URL>.
 - specify the URL of the remote GitHub repository, e.g.
 https://github.com/tankweeteck-ichat/Lab1new.git
 
@@ -44,15 +44,15 @@ git push -u origin master
 git push origin
 - push files from Git repository to the GitHub remote repository.
 
-git remote set-url origin <new URL>
+git remote set-url origin .<new URL>.
 - change the URL of the remote GitHub repository to a new URL
 
 =====================================================
 
-git tag –a <tag> –m <comment>
+git tag –a <tag> –m .<comment>.
 - create a new Git tag on the current file versions in the current branch.
 
-git push origin <tag>
+git push origin .<tag>.
 - push the tag from the local git repository to the remote GitHub repository.
 
 
